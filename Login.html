@@ -1,9 +1,73 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>   body {
+        font-family: Arial, sans-serif;
+        background: #e8ecf2;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        background: #fff;
+        padding: 30px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    }
+
+    form p {
+        margin: 15px 0;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #bfbfbf;
+        border-radius: 6px;
+        font-size: 15px;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 6px rgba(0,123,255,0.4);
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background: #0056b3;
+    }</style>
 </head>
 <body>
     <form action="bio.htm">
